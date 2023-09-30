@@ -22,7 +22,7 @@ ocv_tracker <inputFile> <trackertType> <roiPercentage> <logFile> <outputFile>
 ```
 where: 
  - inputFile: complete path to video file to process
- - trackertType: OpenCV tracker, one of BOOSTING, MIL, KCF, TLD, MEDIANFLOW, GOTURN, MOSSE
- - roiPercentage: size of selection to track for as percentage of input video frame size
- - logFile: complete path to file, used to collect tracking data (roi position)
- - outputFile: complete path to output file, where processed video frames witll be stored
+ - trackertType: OpenCV tracker method, one of BOOSTING, MIL, KCF, TLD, MEDIANFLOW, GOTURN, MOSSE
+ - roiPercentage: size of selection to start tracking as percentage of input video frame size
+ - logFile: complete path to the file, used to collect tracking data (roi position)
+ - outputFile: complete path to the output file, where processed video frames witll be stored
