@@ -26,3 +26,7 @@ where:
  - roiPercentage: size of selection to start tracking as percentage of input video frame size
  - logFile: complete path to the file, used to collect tracking data (roi position)
  - outputFile: complete path to the output file, where processed video frames witll be stored
+
+> [!WARNING]
+> To use GOTURN tracking method you need to download the [goturn.prototxt file and goturn.caffemodel] (https://github.com/spmallick/goturn-files) 
+and put them tom same folder as your current working directory.
