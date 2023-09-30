@@ -28,5 +28,5 @@ where:
  - outputFile: complete path to the output file, where processed video frames witll be stored
 
 > [!WARNING]
-> To use GOTURN tracking method you need to download the [goturn.prototxt file and goturn.caffemodel] (https://github.com/spmallick/goturn-files) 
+> To use GOTURN tracking method you need to download the goturn.prototxt file and goturn.caffemodel (https://github.com/spmallick/goturn-files) 
 and put them tom same folder as your current working directory.
