@@ -18,14 +18,16 @@ sudo make install
 
 ## Usage
 ```
-ocv_tracker <inputFile> <trackertType> <roiPercentage> <logFile> <outputFile>
+ocv_tracker <trackertType> <inputFile> <outputFile> <logFile> <roiPercentage>
 ```
 where: 
- - inputFile: complete path to video file to process
  - trackertType: OpenCV tracker method, one of BOOSTING, MIL, KCF, TLD, MEDIANFLOW, GOTURN, MOSSE
- - roiPercentage: size of selection to start tracking as percentage of input video frame size
- - logFile: complete path to the file, used to collect tracking data (roi position)
+ - inputFile: complete path to video file to process
  - outputFile: complete path to the output file, where processed video frames witll be stored
+ - logFile: complete path to the file, used to collect tracking data (roi position)
+ - roiPercentage: size of selection to start tracking as percentage of input video frame size
+
+To stop processing press ESC button
 
 > [!WARNING]
 > To use GOTURN tracking method you need to download the goturn.prototxt file and goturn.caffemodel (https://github.com/spmallick/goturn-files) 
