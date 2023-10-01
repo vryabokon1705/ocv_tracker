@@ -3,7 +3,7 @@
 
 #include "player.h"
 
-Player::Player(string videouSource, string trackerType, int roiPercentage, string logFile, string outputFile):
+Player::Player(string trackerType, string videouSource, string outputFile, string logFile, int roiPercentage):
     _videouSource(videouSource), _trackerType(trackerType), _roiPercentage(roiPercentage), _outputFile(outputFile)
 {
     _roi = Rect2d(0, 0, 0, 0);

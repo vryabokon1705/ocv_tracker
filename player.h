@@ -38,7 +38,7 @@ class Player
     Scalar _borderColor = BORDER_COLOR_MOUSE_HOVER;
 
 public:
-    Player(string videouSource, string trackerType, int roiPercentage, string logFile, string outputFile);
+    Player(string trackerType, string videouSource, string outputFile, string logFile, int roiPercentage);
     ~Player();
     void readFile();
 
